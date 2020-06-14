@@ -65,9 +65,9 @@
 
     x = window; 
     function cronometro(start, end, x){
-        var timeCounter = new Cronometro();
+        var crono = new TimeCounter();
         x.onload = function() {
-        timeCounter.start();
+        crono.start();
         for(var i=0; i<1000; i++) {
             var div = document.createElement("cronometro");
             div.appendChild(document.createTextNode(i));
