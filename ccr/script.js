@@ -63,8 +63,16 @@
 
     }
 
-    function cronometro(start, end){
-
+    x = window; 
+    function cronometro(start, end, x){
+        var timeCounter = new Cronometro();
+        x.onload = function() {
+        timeCounter.start();
+        for(var i=0; i<1000; i++) {
+            var div = document.createElement("cronometro");
+            div.appendChild(document.createTextNode(i));
+            document.body.appendChild(div);
+        }
     }
 
     var latitudeX;
