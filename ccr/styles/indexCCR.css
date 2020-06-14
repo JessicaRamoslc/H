@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.clovis {
+    float: left;
+}
+
+.saudacaoInfo{
+    background-color: green;
+    float: right;
+}
+
+.buttons {
+    clear: both;
+}
+
+#checkIn{
+    background-color: blue;
+}
+
+#checkOut{
+    background-color: red;
+}
+
+.content header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #B30A00;
+}

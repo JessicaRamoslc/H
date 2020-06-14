@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <div class="col-6 clovis">
+        <img src="../ccr/assets/clovis.jpeg" alt="" srcset="">
+      </div>
+    <form action="/savepoint" method="POST">
+        <h1>Cadastro amigo</h1>
+        <fieldset>
+            <legend>
+                <h2>Dados do caminhoneiro</h2>
+            </legend>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" required="required">
+                </div>
+            </div>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="cpf">CPF</label><input type="text" name="cpf" required="required">
+                </div>
+                <div class="field">
+                    <label for="idade">Idade</label><input type="text" name="idade" required="required">
+                </div>
+            </div>
+
+            <div class="field-group">
+                <div class="field">
+                    <label for="state">Sou autônomo</label>
+                    <select name="ifAuto" id="">
+                        <option value="">Selecione</option>
+                    </select>
+                    <input type="hidden" name="ifAutonomo">
+
+                </div>
+            </div>
+        </fieldset>
+</head>
+<body>
+    
+</body>
+</html>

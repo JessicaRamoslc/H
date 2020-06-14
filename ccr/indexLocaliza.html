@@ -1,0 +1,75 @@
+<html>
+<link rel="stylesheet" href="styles/indexCCR.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+<body>
+
+ 
+
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="../ccr/assets/ccr.png" id="logoCcr" width="100" height="100" alt="">
+    </a>
+  </nav>
+
+  <div class="content" id="contentCheckIn">
+    <h1 class="text-center"> Olá, agora você é um amigo da CCR! </h1>
+    <div class="row">
+      <div class="col-6 clovis">
+        <img src="../ccr/assets/clovis.jpeg" alt="" srcset="">
+      </div>
+      <div class="col-6 saudacaoInfo">
+        <h2>Olá <span>João</span>, você tem 1000 pontos.</h2>
+        <br>
+        <p>Parabéns</p>
+        <p>Faça uma boa viagem e não se esqueça de conferir os serviços que a CCR e seus parceiros têm para deixar a sua viagem mais <span>segura</span> e <span>barata</span></p>
+        <br>
+        <br>
+        <br>
+        <p>Um abraço do seu amigo caminhoneiro, </p></br>
+        <p>Clóvis</p>
+        <div id="initMap">
+          <div id="map"></div>
+        </div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button type="button" class="btn btn-primary btn-lg checkIn" onclick="getLocalizacao()">Tô aqui!</button>
+    </div>
+  </div>
+</body>
+
+
+<!-- API GOOGLE MAPS-->
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvrGH2NuHPq2cHZJ4ugKlUpO3gdb_AGz0"></script>  
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+
+<!--endereço para construir a query! https://www.google.com/maps/dir/-23.5184975,+-46.694544799999996-->
+<!--Read more: http://www.linhadecodigo.com.br/artigo/3653/usando-geolocalizacao-com-html5.aspx#ixzz6PCMPyDpD-->
+
+</html>
